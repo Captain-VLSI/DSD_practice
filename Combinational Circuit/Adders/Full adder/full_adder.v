@@ -5,8 +5,8 @@ module half_adder (
     output wire carry
 );
 
-    assign sum   = a ^ b;
-    assign carry = a & b;
+   assign sum  = a ^ b ^ cin;
+    assign cout = (a & b) | (b & cin) | (a & cin);
 
 endmodule
 
