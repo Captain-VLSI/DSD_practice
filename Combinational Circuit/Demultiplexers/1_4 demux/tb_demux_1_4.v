@@ -1,3 +1,5 @@
+// Code your testbench here
+// or browse Examples
 module tb_demux_1_4;
   reg I;
   reg [1:0]S;
@@ -6,7 +8,7 @@ module tb_demux_1_4;
   demux_1_4 dut (.I(I),.S(S),.Y(Y));
 
   initial begin 
-    $monitor("$time=%d,I=%0b,S=%0b,Y=%0b", $time,I,S,Y);
+    $monitor("$time=%0t | I=%0b,S=%02b,Y=%04b", $time,I,S,Y);
   end
   initial begin
     $display("===================================================");
