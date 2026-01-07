@@ -9,7 +9,7 @@ module tb_priority_enc;
 initial begin
   $display("===============================");
   $display("======Simulation started=======");
-  $monitor("$Time=%0t,D=%B, Y=%b",$Time,tb_D,tb_Y);
+  $monitor("$time=%0t,D=%B, Y=%b",$time,tb_D,tb_Y);
 
  tb_D=4'b1000;
 #10;
