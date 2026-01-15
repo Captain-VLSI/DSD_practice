@@ -7,7 +7,6 @@ module half_adder_tb;
     wire sum;
     wire carry;
 
-    // Instantiate DUT
     half_adder dut (
         .a(a),
         .b(b),
@@ -17,11 +16,7 @@ module half_adder_tb;
 
     initial begin
         $display("  A  B  |  SUM  CARRY");
-
-        // Monitor prints whenever any listed signal changes
         $monitor("  %b  %b  |   %b     %b", a, b, sum, carry);
-
-        // Apply test vectors
         a = 0; b = 0; #10;
         a = 0; b = 1; #10;
         a = 1; b = 0; #10;
