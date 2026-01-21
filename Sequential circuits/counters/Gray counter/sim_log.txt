@@ -1,0 +1,184 @@
+# vsim -voptargs="+acc" work.tb_gray_counter -l sim_log.txt 
+# Start time: 20:57:46 on Jan 21,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_gray_counter(fast)
+# Loading work.gray_counter(fast)
+# =====simulation started=======
+# ======simulation Ended========
+# $time, tb_rst_n=00000000000000000000000000000000000000000000000000000000000000000,tb_gray_out0 x
+# $time, tb_rst_n=00000000000000000000000000000000000000000000000000000000000010100,tb_gray_out1 x
+# $time, tb_rst_n=00000000000000000000000000000000000000000000000000000000000011001,tb_gray_out1 0
+# ** Note: $finish    : tb_counter.sv(26)
+#    Time: 220 ns  Iteration: 0  Instance: /tb_gray_counter
+# 1
+# Break in Module tb_gray_counter at tb_counter.sv line 26
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:01:57 on Jan 21,2026
+# vlog -reportprogress 300 gray_counter.sv 
+# -- Compiling module gray_counter
+# 
+# Top level modules:
+# 	gray_counter
+# End time: 21:01:57 on Jan 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:01:57 on Jan 21,2026
+# vlog -reportprogress 300 tb_counter.sv 
+# -- Compiling module tb_gray_counter
+# 
+# Top level modules:
+# 	tb_gray_counter
+# End time: 21:01:57 on Jan 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:02:11 on Jan 21,2026, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_gray_counter -l sim_log.txt 
+# Start time: 21:02:11 on Jan 21,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_gray_counter(fast)
+# Loading work.gray_counter(fast)
+# =====simulation started=======
+# ======simulation Ended========
+# $time=0                   0, tb_rst_n=00,tb_gray_out x
+# $time=0                  20, tb_rst_n=01,tb_gray_out x
+# $time=0                  25, tb_rst_n=01,tb_gray_out 0
+# ** Note: $finish    : tb_counter.sv(26)
+#    Time: 220 ns  Iteration: 0  Instance: /tb_gray_counter
+# 1
+# Break in Module tb_gray_counter at tb_counter.sv line 26
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:22:03 on Jan 21,2026
+# vlog -reportprogress 300 gray_counter.sv 
+# -- Compiling module gray_counter
+# 
+# Top level modules:
+# 	gray_counter
+# End time: 21:22:03 on Jan 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:22:03 on Jan 21,2026
+# vlog -reportprogress 300 tb_counter.sv 
+# -- Compiling module tb_gray_counter
+# 
+# Top level modules:
+# 	tb_gray_counter
+# End time: 21:22:03 on Jan 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:22:12 on Jan 21,2026, Elapsed time: 0:20:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_gray_counter -l sim_log.txt 
+# Start time: 21:22:12 on Jan 21,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_gray_counter(fast)
+# Loading work.gray_counter(fast)
+# =====simulation started=======
+# ======simulation Ended========
+# $time=0                   0, tb_rst_n=00,tb_gray_out=x
+# $time=0                  20, tb_rst_n=01,tb_gray_out=x
+# $time=0                  25, tb_rst_n=01,tb_gray_out=0
+# ** Note: $finish    : tb_counter.sv(26)
+#    Time: 220 ns  Iteration: 0  Instance: /tb_gray_counter
+# 1
+# Break in Module tb_gray_counter at tb_counter.sv line 26
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:23:42 on Jan 21,2026
+# vlog -reportprogress 300 gray_counter.sv 
+# -- Compiling module gray_counter
+# 
+# Top level modules:
+# 	gray_counter
+# End time: 21:23:42 on Jan 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:23:43 on Jan 21,2026
+# vlog -reportprogress 300 tb_counter.sv 
+# -- Compiling module tb_gray_counter
+# 
+# Top level modules:
+# 	tb_gray_counter
+# End time: 21:23:43 on Jan 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:23:53 on Jan 21,2026, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_gray_counter -l sim_log.txt 
+# Start time: 21:23:53 on Jan 21,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_gray_counter(fast)
+# Loading work.gray_counter(fast)
+# =====simulation started=======
+# Time=0 | Reset=0 | Gray Out=xxxx
+# Time=20 | Reset=1 | Gray Out=xxxx
+# Time=25 | Reset=1 | Gray Out=0000
+# ======simulation Ended========
+# ** Note: $finish    : tb_counter.sv(26)
+#    Time: 220 ns  Iteration: 0  Instance: /tb_gray_counter
+# 1
+# Break in Module tb_gray_counter at tb_counter.sv line 26
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:32:36 on Jan 21,2026
+# vlog -reportprogress 300 gray_counter.sv 
+# -- Compiling module gray_counter
+# 
+# Top level modules:
+# 	gray_counter
+# End time: 21:32:36 on Jan 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:32:36 on Jan 21,2026
+# vlog -reportprogress 300 tb_counter.sv 
+# -- Compiling module tb_gray_counter
+# 
+# Top level modules:
+# 	tb_gray_counter
+# End time: 21:32:36 on Jan 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:32:42 on Jan 21,2026, Elapsed time: 0:08:49
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_gray_counter -l sim_log.txt 
+# Start time: 21:32:42 on Jan 21,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_gray_counter(fast)
+# Loading work.gray_counter(fast)
+# =====simulation started=======
+# Time=0 | Reset=0 | Gray Out=xxxx
+# Time=10 | Reset=1 | Gray Out=xxxx
+# Time=15 | Reset=1 | Gray Out=0000
+# Time=20 | Reset=0 | Gray Out=0001
+# Time=25 | Reset=0 | Gray Out=0011
+# Time=35 | Reset=0 | Gray Out=0010
+# Time=45 | Reset=0 | Gray Out=0110
+# Time=55 | Reset=0 | Gray Out=0111
+# Time=65 | Reset=0 | Gray Out=0101
+# Time=75 | Reset=0 | Gray Out=0100
+# Time=85 | Reset=0 | Gray Out=1100
+# Time=95 | Reset=0 | Gray Out=1101
+# Time=105 | Reset=0 | Gray Out=1111
+# Time=115 | Reset=0 | Gray Out=1110
+# Time=125 | Reset=0 | Gray Out=1010
+# Time=135 | Reset=0 | Gray Out=1011
+# Time=145 | Reset=0 | Gray Out=1001
+# Time=155 | Reset=0 | Gray Out=1000
+# Time=165 | Reset=0 | Gray Out=0000
+# Time=175 | Reset=0 | Gray Out=0001
+# Time=185 | Reset=0 | Gray Out=0011
+# Time=195 | Reset=0 | Gray Out=0010
+# Time=205 | Reset=0 | Gray Out=0110
+# Time=215 | Reset=0 | Gray Out=0111
+# ======simulation Ended========
+# ** Note: $finish    : tb_counter.sv(29)
+#    Time: 220 ns  Iteration: 0  Instance: /tb_gray_counter
+# 1
+# Break in Module tb_gray_counter at tb_counter.sv line 29
